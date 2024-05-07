@@ -1,0 +1,77 @@
+body {
+
+        font-family: Arial, sans-serif;
+        background-image: url(image2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover ;
+        background-attachment: fixed;
+   
+}
+
+.container {
+    width: 300px;
+    height: 200px;
+border-radius: 15px;
+margin: 70px auto;
+text-align: center;
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+background-color: transparent;
+backdrop-filter: blur(8px);
+
+
+}
+input{
+    width: 150px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+select{
+    color: #0a133d;
+    text-decoration: solid;
+    border: 1px solid transparent;
+
+}
+
+input, select, button {
+margin-bottom: 10px;
+margin-top: 30px;
+padding: 5px;
+}
+
+button {
+
+    
+    background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+background-size: cover;
+color: #ffffff;
+
+width: 100px;
+border: 1px solid transparent;
+border-radius: 2px;
+}
+
+#result {
+margin-top: 10px;
+font-weight: bold;
+color: #054c6d;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 300px;
+        height: auto;
+    }
+
+    input, select, button {
+        width: 70%;
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    button {
+        width: 60%;
+        font-size: 14px;
+    }
+}
